@@ -1,0 +1,338 @@
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.4px solid transparent;
+}
+.border :hover{
+    border: 1.4px solid white;
+}
+
+/*address*/
+.add-to{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.add-here{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.nav-address{
+    position: relative;
+    padding: 10px;
+}
+.nav-address::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1.4px solid transparent; /* Set the border color to transparent by default */
+  }
+  
+  /* Change the border color to black when the nav-address div is hovered */
+  .nav-address:hover::before {
+    border: 1.4px solid white;
+  }
+
+
+/*search box*/
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 980px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #d7d5d5;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: left;
+    border: none;
+}
+.search-input{
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+.search-icon{
+    width: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/*sign in*/
+.nav-signin{
+    position: relative;
+    padding: 10px;
+}
+.nav-signin::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1.4px solid transparent; /* Set the border color to transparent by default */
+}
+  
+  /* Change the border color to black when the nav-address div is hovered */
+.nav-signin:hover::before {
+    border: 1.4px solid white;
+}
+
+span{
+    font-size: 0.7rem;
+
+}
+.nav-first{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/*return*/
+.nav-return{
+    position: relative;
+    padding: 10px;
+}
+.nav-return::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1.4px solid transparent; /* Set the border color to transparent by default */
+}
+  
+  /* Change the border color to black when the nav-address div is hovered */
+.nav-return:hover::before {
+    border: 1.4px solid white;
+}
+
+/*Cart*/
+.nav-cart i{
+    font-size: 30px;
+
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-cart{
+    position: relative;
+    padding: 10px;
+}
+.nav-cart::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1.4px solid transparent; /* Set the border color to transparent by default */
+}
+  
+  /* Change the border color to black when the nav-address div is hovered */
+.nav-cart:hover::before {
+    border: 1.4px solid white;
+}
+/*pannel*/
+.pannel{
+    display: flex;
+    height:40px;
+    background-color: #222f3d;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-opt p{
+    display:inline;
+    margin-left: 15px;
+    padding: 5px;
+}
+.pannel-opt p:hover{
+    border-bottom: 1.4px solid white;
+}
+.pannel-opt{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 4px;
+}
+.pannel-deals:hover{
+    border-bottom: 1.4px solid white;
+}
+
+
+/*hero section*/
+.hero-section{
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 95%;
+    margin-bottom: 50px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/*shop section*/
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.card{
+    width: 23%;
+    height: 400px;
+    padding: 20px 0px 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+.card-img{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.card-content h2{
+    font-size: 1.2rem;
+}
+.card-content p{
+    color: #007185
+}
+/*footer*/
+.footer{
+    margin-top: 15px;
+}
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.foot-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.foot-pannel2 p{
+    font-size: 1rem;
+    font-weight: 700;
+}
+ul{
+    margin-top: 30px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul a:hover{
+    border-bottom: 1.4px solid white;
+}
+.foot-pannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(images/amazon_logo.png);
+    height: 50px;
+    width: 100px;
+}
+.foot-pannel4{
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    height: 80px;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.pages{
+    font-size: 0.85rem;
+    text-align: center;
+}
+.pages a{
+    margin-left: 10px;
+}
+.pages a:hover{
+    border-bottom: 1.4px solid white;
+}
+.copyright{
+    font-size: 0.85rem;
+    padding-top: 5px; 
+    text-align: center;  
+}
